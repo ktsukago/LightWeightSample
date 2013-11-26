@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91685D221844748100AF3D4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91685D211844748100AF3D4F /* Foundation.framework */; };
+		91685D241844748100AF3D4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91685D231844748100AF3D4F /* CoreGraphics.framework */; };
+		91685D261844748100AF3D4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91685D251844748100AF3D4F /* UIKit.framework */; };
+		91685D2C1844748100AF3D4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91685D2A1844748100AF3D4F /* InfoPlist.strings */; };
+		91685D2E1844748100AF3D4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D2D1844748100AF3D4F /* main.m */; };
+		91685D321844748100AF3D4F /* LWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D311844748100AF3D4F /* LWAppDelegate.m */; };
+		91685D351844748100AF3D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91685D331844748100AF3D4F /* Main.storyboard */; };
+		91685D381844748100AF3D4F /* LWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D371844748100AF3D4F /* LWViewController.m */; };
+		91685D3A1844748100AF3D4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91685D391844748100AF3D4F /* Images.xcassets */; };
+		91685D411844748200AF3D4F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91685D401844748200AF3D4F /* XCTest.framework */; };
+		91685D421844748200AF3D4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91685D211844748100AF3D4F /* Foundation.framework */; };
+		91685D431844748200AF3D4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91685D251844748100AF3D4F /* UIKit.framework */; };
+		91685D4B1844748200AF3D4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91685D491844748200AF3D4F /* InfoPlist.strings */; };
+		91685D4D1844748200AF3D4F /* LightWeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D4C1844748200AF3D4F /* LightWeightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91685D441844748200AF3D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91685D161844748100AF3D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91685D1D1844748100AF3D4F;
+			remoteInfo = LightWeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91685D1E1844748100AF3D4F /* LightWeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightWeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91685D211844748100AF3D4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91685D231844748100AF3D4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91685D251844748100AF3D4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91685D291844748100AF3D4F /* LightWeight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightWeight-Info.plist"; sourceTree = "<group>"; };
+		91685D2B1844748100AF3D4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91685D2D1844748100AF3D4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91685D2F1844748100AF3D4F /* LightWeight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LightWeight-Prefix.pch"; sourceTree = "<group>"; };
+		91685D301844748100AF3D4F /* LWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAppDelegate.h; sourceTree = "<group>"; };
+		91685D311844748100AF3D4F /* LWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAppDelegate.m; sourceTree = "<group>"; };
+		91685D341844748100AF3D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91685D361844748100AF3D4F /* LWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewController.h; sourceTree = "<group>"; };
+		91685D371844748100AF3D4F /* LWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewController.m; sourceTree = "<group>"; };
+		91685D391844748100AF3D4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91685D3F1844748200AF3D4F /* LightWeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightWeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91685D401844748200AF3D4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		91685D481844748200AF3D4F /* LightWeightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightWeightTests-Info.plist"; sourceTree = "<group>"; };
+		91685D4A1844748200AF3D4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91685D4C1844748200AF3D4F /* LightWeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightWeightTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91685D1B1844748100AF3D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91685D241844748100AF3D4F /* CoreGraphics.framework in Frameworks */,
+				91685D261844748100AF3D4F /* UIKit.framework in Frameworks */,
+				91685D221844748100AF3D4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91685D3C1844748200AF3D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91685D411844748200AF3D4F /* XCTest.framework in Frameworks */,
+				91685D431844748200AF3D4F /* UIKit.framework in Frameworks */,
+				91685D421844748200AF3D4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91685D151844748100AF3D4F = {
+			isa = PBXGroup;
+			children = (
+				91685D271844748100AF3D4F /* LightWeight */,
+				91685D461844748200AF3D4F /* LightWeightTests */,
+				91685D201844748100AF3D4F /* Frameworks */,
+				91685D1F1844748100AF3D4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91685D1F1844748100AF3D4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91685D1E1844748100AF3D4F /* LightWeight.app */,
+				91685D3F1844748200AF3D4F /* LightWeightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91685D201844748100AF3D4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91685D211844748100AF3D4F /* Foundation.framework */,
+				91685D231844748100AF3D4F /* CoreGraphics.framework */,
+				91685D251844748100AF3D4F /* UIKit.framework */,
+				91685D401844748200AF3D4F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91685D271844748100AF3D4F /* LightWeight */ = {
+			isa = PBXGroup;
+			children = (
+				91685D301844748100AF3D4F /* LWAppDelegate.h */,
+				91685D311844748100AF3D4F /* LWAppDelegate.m */,
+				91685D331844748100AF3D4F /* Main.storyboard */,
+				91685D361844748100AF3D4F /* LWViewController.h */,
+				91685D371844748100AF3D4F /* LWViewController.m */,
+				91685D391844748100AF3D4F /* Images.xcassets */,
+				91685D281844748100AF3D4F /* Supporting Files */,
+			);
+			path = LightWeight;
+			sourceTree = "<group>";
+		};
+		91685D281844748100AF3D4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91685D291844748100AF3D4F /* LightWeight-Info.plist */,
+				91685D2A1844748100AF3D4F /* InfoPlist.strings */,
+				91685D2D1844748100AF3D4F /* main.m */,
+				91685D2F1844748100AF3D4F /* LightWeight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91685D461844748200AF3D4F /* LightWeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				91685D4C1844748200AF3D4F /* LightWeightTests.m */,
+				91685D471844748200AF3D4F /* Supporting Files */,
+			);
+			path = LightWeightTests;
+			sourceTree = "<group>";
+		};
+		91685D471844748200AF3D4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91685D481844748200AF3D4F /* LightWeightTests-Info.plist */,
+				91685D491844748200AF3D4F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91685D1D1844748100AF3D4F /* LightWeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91685D501844748200AF3D4F /* Build configuration list for PBXNativeTarget "LightWeight" */;
+			buildPhases = (
+				91685D1A1844748100AF3D4F /* Sources */,
+				91685D1B1844748100AF3D4F /* Frameworks */,
+				91685D1C1844748100AF3D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightWeight;
+			productName = LightWeight;
+			productReference = 91685D1E1844748100AF3D4F /* LightWeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91685D3E1844748200AF3D4F /* LightWeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91685D531844748200AF3D4F /* Build configuration list for PBXNativeTarget "LightWeightTests" */;
+			buildPhases = (
+				91685D3B1844748200AF3D4F /* Sources */,
+				91685D3C1844748200AF3D4F /* Frameworks */,
+				91685D3D1844748200AF3D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91685D451844748200AF3D4F /* PBXTargetDependency */,
+			);
+			name = LightWeightTests;
+			productName = LightWeightTests;
+			productReference = 91685D3F1844748200AF3D4F /* LightWeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91685D161844748100AF3D4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ktsukago;
+				TargetAttributes = {
+					91685D3E1844748200AF3D4F = {
+						TestTargetID = 91685D1D1844748100AF3D4F;
+					};
+				};
+			};
+			buildConfigurationList = 91685D191844748100AF3D4F /* Build configuration list for PBXProject "LightWeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91685D151844748100AF3D4F;
+			productRefGroup = 91685D1F1844748100AF3D4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91685D1D1844748100AF3D4F /* LightWeight */,
+				91685D3E1844748200AF3D4F /* LightWeightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91685D1C1844748100AF3D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91685D3A1844748100AF3D4F /* Images.xcassets in Resources */,
+				91685D2C1844748100AF3D4F /* InfoPlist.strings in Resources */,
+				91685D351844748100AF3D4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91685D3D1844748200AF3D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91685D4B1844748200AF3D4F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91685D1A1844748100AF3D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91685D2E1844748100AF3D4F /* main.m in Sources */,
+				91685D321844748100AF3D4F /* LWAppDelegate.m in Sources */,
+				91685D381844748100AF3D4F /* LWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91685D3B1844748200AF3D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91685D4D1844748200AF3D4F /* LightWeightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91685D451844748200AF3D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91685D1D1844748100AF3D4F /* LightWeight */;
+			targetProxy = 91685D441844748200AF3D4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91685D2A1844748100AF3D4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91685D2B1844748100AF3D4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91685D331844748100AF3D4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91685D341844748100AF3D4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91685D491844748200AF3D4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91685D4A1844748200AF3D4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91685D4E1844748200AF3D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91685D4F1844748200AF3D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91685D511844748200AF3D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightWeight/LightWeight-Prefix.pch";
+				INFOPLIST_FILE = "LightWeight/LightWeight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91685D521844748200AF3D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightWeight/LightWeight-Prefix.pch";
+				INFOPLIST_FILE = "LightWeight/LightWeight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91685D541844748200AF3D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LightWeight.app/LightWeight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightWeight/LightWeight-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LightWeightTests/LightWeightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		91685D551844748200AF3D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LightWeight.app/LightWeight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightWeight/LightWeight-Prefix.pch";
+				INFOPLIST_FILE = "LightWeightTests/LightWeightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91685D191844748100AF3D4F /* Build configuration list for PBXProject "LightWeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91685D4E1844748200AF3D4F /* Debug */,
+				91685D4F1844748200AF3D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91685D501844748200AF3D4F /* Build configuration list for PBXNativeTarget "LightWeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91685D511844748200AF3D4F /* Debug */,
+				91685D521844748200AF3D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91685D531844748200AF3D4F /* Build configuration list for PBXNativeTarget "LightWeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91685D541844748200AF3D4F /* Debug */,
+				91685D551844748200AF3D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91685D161844748100AF3D4F /* Project object */;
+}
