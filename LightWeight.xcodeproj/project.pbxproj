@@ -14,13 +14,27 @@
 		91685D2E1844748100AF3D4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D2D1844748100AF3D4F /* main.m */; };
 		91685D321844748100AF3D4F /* LWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D311844748100AF3D4F /* LWAppDelegate.m */; };
 		91685D351844748100AF3D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91685D331844748100AF3D4F /* Main.storyboard */; };
-		91685D381844748100AF3D4F /* LWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D371844748100AF3D4F /* LWViewController.m */; };
 		91685D3A1844748100AF3D4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91685D391844748100AF3D4F /* Images.xcassets */; };
 		91685D411844748200AF3D4F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91685D401844748200AF3D4F /* XCTest.framework */; };
 		91685D421844748200AF3D4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91685D211844748100AF3D4F /* Foundation.framework */; };
 		91685D431844748200AF3D4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91685D251844748100AF3D4F /* UIKit.framework */; };
 		91685D4B1844748200AF3D4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91685D491844748200AF3D4F /* InfoPlist.strings */; };
 		91685D4D1844748200AF3D4F /* LightWeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D4C1844748200AF3D4F /* LightWeightTests.m */; };
+		91685D591844756800AF3D4F /* LWDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D581844756800AF3D4F /* LWDataSource.m */; };
+		91685D5C1844A6C800AF3D4F /* LWStoredPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D5B1844A6C800AF3D4F /* LWStoredPhotos.m */; };
+		91685D6E18458CDC00AF3D4F /* kyoto_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91685D6418458CDC00AF3D4F /* kyoto_1.jpg */; };
+		91685D6F18458CDC00AF3D4F /* kyoto_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91685D6518458CDC00AF3D4F /* kyoto_2.jpg */; };
+		91685D7018458CDC00AF3D4F /* kyoto_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91685D6618458CDC00AF3D4F /* kyoto_4.jpg */; };
+		91685D7118458CDC00AF3D4F /* kyoto_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91685D6718458CDC00AF3D4F /* kyoto_5.jpg */; };
+		91685D7218458CDC00AF3D4F /* kyoto_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91685D6818458CDC00AF3D4F /* kyoto_6.jpg */; };
+		91685D7318458CDC00AF3D4F /* kyoto_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91685D6918458CDC00AF3D4F /* kyoto_7.jpg */; };
+		91685D7418458CDC00AF3D4F /* kyoto_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91685D6A18458CDC00AF3D4F /* kyoto_8.jpg */; };
+		91685D7518458CDC00AF3D4F /* kyoto_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91685D6B18458CDC00AF3D4F /* kyoto_9.jpg */; };
+		91685D7618458CDC00AF3D4F /* kyoto_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91685D6C18458CDC00AF3D4F /* kyoto_0.jpg */; };
+		91685D7718458CDC00AF3D4F /* kyoto_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91685D6D18458CDC00AF3D4F /* kyoto_3.jpg */; };
+		91685D7D1845AA5400AF3D4F /* LWImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D7C1845AA5400AF3D4F /* LWImageCollectionViewCell.m */; };
+		91685D821845AA6800AF3D4F /* LWCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D7F1845AA6800AF3D4F /* LWCollectionViewController.m */; };
+		91685D831845AA6800AF3D4F /* LWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D811845AA6800AF3D4F /* LWViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +59,32 @@
 		91685D301844748100AF3D4F /* LWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAppDelegate.h; sourceTree = "<group>"; };
 		91685D311844748100AF3D4F /* LWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAppDelegate.m; sourceTree = "<group>"; };
 		91685D341844748100AF3D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		91685D361844748100AF3D4F /* LWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewController.h; sourceTree = "<group>"; };
-		91685D371844748100AF3D4F /* LWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewController.m; sourceTree = "<group>"; };
 		91685D391844748100AF3D4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91685D3F1844748200AF3D4F /* LightWeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightWeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91685D401844748200AF3D4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		91685D481844748200AF3D4F /* LightWeightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightWeightTests-Info.plist"; sourceTree = "<group>"; };
 		91685D4A1844748200AF3D4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91685D4C1844748200AF3D4F /* LightWeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightWeightTests.m; sourceTree = "<group>"; };
+		91685D571844756800AF3D4F /* LWDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWDataSource.h; path = datasource/LWDataSource.h; sourceTree = "<group>"; };
+		91685D581844756800AF3D4F /* LWDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LWDataSource.m; path = datasource/LWDataSource.m; sourceTree = "<group>"; };
+		91685D5A1844A6C800AF3D4F /* LWStoredPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWStoredPhotos.h; path = storedData/LWStoredPhotos.h; sourceTree = "<group>"; };
+		91685D5B1844A6C800AF3D4F /* LWStoredPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LWStoredPhotos.m; path = storedData/LWStoredPhotos.m; sourceTree = "<group>"; };
+		91685D6418458CDC00AF3D4F /* kyoto_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kyoto_1.jpg; path = ../../../../Downloads/kyoto_1.jpg; sourceTree = "<group>"; };
+		91685D6518458CDC00AF3D4F /* kyoto_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kyoto_2.jpg; path = ../../../../Downloads/kyoto_2.jpg; sourceTree = "<group>"; };
+		91685D6618458CDC00AF3D4F /* kyoto_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kyoto_4.jpg; path = ../../../../Downloads/kyoto_4.jpg; sourceTree = "<group>"; };
+		91685D6718458CDC00AF3D4F /* kyoto_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kyoto_5.jpg; path = ../../../../Downloads/kyoto_5.jpg; sourceTree = "<group>"; };
+		91685D6818458CDC00AF3D4F /* kyoto_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kyoto_6.jpg; path = ../../../../Downloads/kyoto_6.jpg; sourceTree = "<group>"; };
+		91685D6918458CDC00AF3D4F /* kyoto_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kyoto_7.jpg; path = ../../../../Downloads/kyoto_7.jpg; sourceTree = "<group>"; };
+		91685D6A18458CDC00AF3D4F /* kyoto_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kyoto_8.jpg; path = ../../../../Downloads/kyoto_8.jpg; sourceTree = "<group>"; };
+		91685D6B18458CDC00AF3D4F /* kyoto_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kyoto_9.jpg; path = ../../../../Downloads/kyoto_9.jpg; sourceTree = "<group>"; };
+		91685D6C18458CDC00AF3D4F /* kyoto_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kyoto_0.jpg; path = ../../../../Downloads/kyoto_0.jpg; sourceTree = "<group>"; };
+		91685D6D18458CDC00AF3D4F /* kyoto_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kyoto_3.jpg; path = ../../../../Downloads/kyoto_3.jpg; sourceTree = "<group>"; };
+		91685D7B1845AA5400AF3D4F /* LWImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWImageCollectionViewCell.h; path = cell/LWImageCollectionViewCell.h; sourceTree = "<group>"; };
+		91685D7C1845AA5400AF3D4F /* LWImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LWImageCollectionViewCell.m; path = cell/LWImageCollectionViewCell.m; sourceTree = "<group>"; };
+		91685D7E1845AA6800AF3D4F /* LWCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWCollectionViewController.h; path = viewController/LWCollectionViewController.h; sourceTree = "<group>"; };
+		91685D7F1845AA6800AF3D4F /* LWCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LWCollectionViewController.m; path = viewController/LWCollectionViewController.m; sourceTree = "<group>"; };
+		91685D801845AA6800AF3D4F /* LWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWViewController.h; path = viewController/LWViewController.h; sourceTree = "<group>"; };
+		91685D811845AA6800AF3D4F /* LWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LWViewController.m; path = viewController/LWViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +144,15 @@
 		91685D271844748100AF3D4F /* LightWeight */ = {
 			isa = PBXGroup;
 			children = (
+				91685D6318458BDE00AF3D4F /* Images */,
+				91685D5F1845883F00AF3D4F /* viewController */,
+				91685D5E1845869600AF3D4F /* storedData */,
+				91685D5D1845867900AF3D4F /* dataSource */,
 				91685D301844748100AF3D4F /* LWAppDelegate.h */,
 				91685D311844748100AF3D4F /* LWAppDelegate.m */,
+				91685D7B1845AA5400AF3D4F /* LWImageCollectionViewCell.h */,
+				91685D7C1845AA5400AF3D4F /* LWImageCollectionViewCell.m */,
 				91685D331844748100AF3D4F /* Main.storyboard */,
-				91685D361844748100AF3D4F /* LWViewController.h */,
-				91685D371844748100AF3D4F /* LWViewController.m */,
 				91685D391844748100AF3D4F /* Images.xcassets */,
 				91685D281844748100AF3D4F /* Supporting Files */,
 			);
@@ -150,6 +186,52 @@
 				91685D491844748200AF3D4F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91685D5D1845867900AF3D4F /* dataSource */ = {
+			isa = PBXGroup;
+			children = (
+				91685D571844756800AF3D4F /* LWDataSource.h */,
+				91685D581844756800AF3D4F /* LWDataSource.m */,
+			);
+			name = dataSource;
+			sourceTree = "<group>";
+		};
+		91685D5E1845869600AF3D4F /* storedData */ = {
+			isa = PBXGroup;
+			children = (
+				91685D5A1844A6C800AF3D4F /* LWStoredPhotos.h */,
+				91685D5B1844A6C800AF3D4F /* LWStoredPhotos.m */,
+			);
+			name = storedData;
+			sourceTree = "<group>";
+		};
+		91685D5F1845883F00AF3D4F /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				91685D7E1845AA6800AF3D4F /* LWCollectionViewController.h */,
+				91685D7F1845AA6800AF3D4F /* LWCollectionViewController.m */,
+				91685D801845AA6800AF3D4F /* LWViewController.h */,
+				91685D811845AA6800AF3D4F /* LWViewController.m */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
+		91685D6318458BDE00AF3D4F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				91685D6418458CDC00AF3D4F /* kyoto_1.jpg */,
+				91685D6518458CDC00AF3D4F /* kyoto_2.jpg */,
+				91685D6618458CDC00AF3D4F /* kyoto_4.jpg */,
+				91685D6718458CDC00AF3D4F /* kyoto_5.jpg */,
+				91685D6818458CDC00AF3D4F /* kyoto_6.jpg */,
+				91685D6918458CDC00AF3D4F /* kyoto_7.jpg */,
+				91685D6A18458CDC00AF3D4F /* kyoto_8.jpg */,
+				91685D6B18458CDC00AF3D4F /* kyoto_9.jpg */,
+				91685D6C18458CDC00AF3D4F /* kyoto_0.jpg */,
+				91685D6D18458CDC00AF3D4F /* kyoto_3.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +311,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91685D6E18458CDC00AF3D4F /* kyoto_1.jpg in Resources */,
+				91685D7618458CDC00AF3D4F /* kyoto_0.jpg in Resources */,
+				91685D7418458CDC00AF3D4F /* kyoto_8.jpg in Resources */,
 				91685D3A1844748100AF3D4F /* Images.xcassets in Resources */,
+				91685D7718458CDC00AF3D4F /* kyoto_3.jpg in Resources */,
+				91685D7118458CDC00AF3D4F /* kyoto_5.jpg in Resources */,
+				91685D7318458CDC00AF3D4F /* kyoto_7.jpg in Resources */,
+				91685D6F18458CDC00AF3D4F /* kyoto_2.jpg in Resources */,
+				91685D7018458CDC00AF3D4F /* kyoto_4.jpg in Resources */,
+				91685D7218458CDC00AF3D4F /* kyoto_6.jpg in Resources */,
 				91685D2C1844748100AF3D4F /* InfoPlist.strings in Resources */,
+				91685D7518458CDC00AF3D4F /* kyoto_9.jpg in Resources */,
 				91685D351844748100AF3D4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +344,11 @@
 			files = (
 				91685D2E1844748100AF3D4F /* main.m in Sources */,
 				91685D321844748100AF3D4F /* LWAppDelegate.m in Sources */,
-				91685D381844748100AF3D4F /* LWViewController.m in Sources */,
+				91685D5C1844A6C800AF3D4F /* LWStoredPhotos.m in Sources */,
+				91685D7D1845AA5400AF3D4F /* LWImageCollectionViewCell.m in Sources */,
+				91685D831845AA6800AF3D4F /* LWViewController.m in Sources */,
+				91685D821845AA6800AF3D4F /* LWCollectionViewController.m in Sources */,
+				91685D591844756800AF3D4F /* LWDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +557,7 @@
 				91685D521844748200AF3D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91685D531844748200AF3D4F /* Build configuration list for PBXNativeTarget "LightWeightTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +566,7 @@
 				91685D551844748200AF3D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
